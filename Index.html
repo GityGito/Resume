@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="info-box">
+            <h1>Harris Murphy</h1>
+            <p>Click the Button below for my resume.</p>
+            <button id="Btn">RESUME</button>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("#Btn").click(function(){
+                window.location.href = "https://drive.google.com/drive/folders/17ceelHIrxQgmfs7sSvGx-Pq5Bz5LjZ3r?usp=drive_link";
+            });
+        });
+    </script>
+</body>
+</html>
